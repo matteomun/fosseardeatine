@@ -1,0 +1,253 @@
+body{margin: 0; padding: 0;}
+h1{font-family: cursive; font-size: 32px; text-align: center;}
+h5{font-size: 22px;text-align: right;}
+p{font-style: oblique;}
+
+.header_primo{ 
+    position: sticky;
+    height: 80vh;
+    width: auto;
+    padding-top: 1px;
+    background-image: url("fosse.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 2px solid black;
+}
+
+#opacity {
+    width: 45%;
+    height: 46%;
+    margin: 10% auto;
+    background-color: rgba(0, 0, 0, 0.28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    color: white;
+    background-color: transparent;
+}
+
+.header_centrale {
+    width: auto;
+    padding-top: 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide la griglia in due colonne */
+    justify-content: center;
+}
+
+.header_ciociaria{
+    width: auto;
+    padding-top: 6%;
+    display: none;
+    grid-template-columns: repeat(2, 1fr); /* Divide la griglia in due colonne */
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.box_person {
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#orlando{
+    width: 45vh;
+    height: 55vh;
+    background-image: url("orlando.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#ilario{
+    width: 45vh;
+    height: 55vh;
+    background-image: url("ilario.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#palatucci{
+    width: 45vh;
+    height: 55vh;
+    background-image: url("palatucci.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#finzi{
+    width: 45vh;
+    height: 55vh;
+    background-image: url("finzi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.text_person{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-right: 10%;
+    text-align: left;
+}
+
+#lineaTempo{
+    width: auto;
+    height: 30vh;
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid brown;
+}
+
+.seleziona{
+    margin-left: 85%;
+    color: black;
+}
+
+.text_ciociaria{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-right: 10%;
+    text-align: left;
+    display: grid;
+}
+
+.box_patrica{
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border: 2px solid yellow;
+}
+
+#Simoni{
+    width: 45vh;
+    height: 55vh;
+    background-image: url("Simone-Simoni-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.box_ferentino{
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box_ceccano{
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box_paliano{
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box_veroli{
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box_sora{
+    width: 45vh;
+    height: 60vh;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    p{font-size: 15px;font-style: oblique;padding-left: 2px;}
+    h1{font-size: 22px;}
+
+    .seleziona{
+        margin-top: 45%;
+        margin-left: 70%;
+        color: black;
+    }
+
+    .header_primo{
+        height: 60vh;
+        width: auto;
+        background-image: url("fosse.webp");
+    }
+
+    .header_centrale {
+        padding-top: 10%;
+        display: block;
+        justify-content: center;
+    }
+    .box_person{
+        width: 30vh;
+        height: 47vh;
+    }
+
+    .text_person{
+        width: auto;
+        height: auto;
+        margin: 15px 0px  5%;
+    }
+
+    #opacity {
+        width: 70%;
+        height: 52%;
+        margin: 22% auto;
+        background-color: rgba(0, 0, 0, 0.28); /* Utilizziamo rgba per specificare un colore con opacità */
+    }
+
+    #text {
+        padding-top: 15px;
+        color: white;
+        background-color: transparent; /* Impostiamo lo sfondo del testo come trasparente */
+    }
+    
+    #orlando{
+        width: 30vh;
+        height: 40vh;
+    }
+    
+    #ilario{
+        width: 30vh;
+        height: 40vh;
+    }
+    
+    #palatucci{
+        width: 30vh;
+        height: 40vh;
+    }
+    
+    #finzi{
+        width: 30vh;
+        height: 40vh;
+    }
+  }
+  
